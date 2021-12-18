@@ -1,0 +1,6 @@
+Output/
+*.pdf
+*.synctex.gz
+*.aux
+*.fls
+*.log
