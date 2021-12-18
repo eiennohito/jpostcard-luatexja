@@ -42,7 +42,7 @@
 \setlength\tabbingsep{0pt}
 \setlength{\unitlength}{1mm}
 
-\newsavebox{\n@data}
+\newsavebox{\nenga@data}
 % #1 : Receiver name    
 % #2 : Receiver postcode
 % #3 : Receiver address 1
@@ -67,11 +67,11 @@
       \makebox[6.8mm][c]{\StrChar{#2}{7}}%
     }
     % address line 1
-    \savebox{\n@data}{\fontsize{15pt}{0pt}\selectfont\tate#3}
-    \put(83,\dimexpr122mm-\ltjgetht\n@data){\box\n@data}
+    \savebox{\nenga@data}{\fontsize{15pt}{0pt}\selectfont\tate#3}
+    \put(83,\dimexpr122mm-\ltjgetht\nenga@data){\box\nenga@data}
     % address line 2
-    \savebox{\n@data}{\fontsize{15pt}{0pt}\selectfont\tate#4}
-    \put(75,\dimexpr122mm-\ltjgetht\n@data){\box\n@data}
+    \savebox{\nenga@data}{\fontsize{15pt}{0pt}\selectfont\tate#4}
+    \put(75,\dimexpr122mm-\ltjgetht\nenga@data){\box\nenga@data}
     % names
     \put(35,119){
       \begin{minipage}<t>[t][3cm]{8cm}
@@ -94,10 +94,10 @@
       \makebox[4mm][c]{\StrChar{\nenga@senderpostcode}{7}}%
     }
     % sender information
-    \savebox{\n@data}{\fontsize{12pt}{0pt}\selectfont\tate\nenga@senderaddressa}
-    \put(25,\dimexpr89mm-\ltjgetht\n@data){\box\n@data}
-    \savebox{\n@data}{\fontsize{12pt}{0pt}\selectfont\tate\nenga@senderaddressb}
-    \put(18,\dimexpr89mm-\ltjgetht\n@data){\box\n@data}
+    \savebox{\nenga@data}{\fontsize{12pt}{0pt}\selectfont\tate\nenga@senderaddressa}
+    \put(25,\dimexpr89mm-\ltjgetht\nenga@data){\box\nenga@data}
+    \savebox{\nenga@data}{\fontsize{12pt}{0pt}\selectfont\tate\nenga@senderaddressb}
+    \put(18,\dimexpr89mm-\ltjgetht\nenga@data){\box\nenga@data}
     \put(4,76){
       \begin{minipage}<t>[t][1cm]{5cm}
       \fontsize{12pt}{0pt}\selectfont
