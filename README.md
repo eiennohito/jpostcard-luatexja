@@ -37,7 +37,7 @@ latexmk -lualatex -auxdir=Output nenga.tex
 
 Expected output of nenga.pdf:
 
-![images/result.jpg | width=200px]
+![](images/result.jpg)
 
 By default, the style includes the background of the postcard address side for debugging.
 For printing, pass the release flag to the class declaration:
@@ -48,7 +48,7 @@ For printing, pass the release flag to the class declaration:
 
 # Differences from https://github.com/ueokande/jletteraddress
 
-* LuaLaTeX because pLaTeX is a very strange creation and I don't like it
+* Uses LuaLaTeX because I don't like pLaTeX
 * Can be used with arbitrary ttf/otf fonts (see `texdoc luatexja`, section 3.3 for presets)
 * Should be more easily editable/customizable
 * Support families instead of single sender or reciever (using table syntax, thanks once more for `luatex-ja`)
