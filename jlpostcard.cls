@@ -47,6 +47,7 @@
 % #2 : Receiver postcode
 % #3 : Receiver address 1
 % #4 : Receiver address 2
+\newcommand{\ybox}[1]{\mbox{\yoko#1}}
 \newcommand{\addaddress}[4] {
   \clearpage
   \refstepcounter{section}
