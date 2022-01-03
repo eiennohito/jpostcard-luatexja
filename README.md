@@ -1,6 +1,8 @@
 # What is this
 
-This is a LuaLaTeX style file for creating Japanese New Year greeting postcards - Nengajo (年賀状).
+This is a LuaLaTeX style file for creating Japanese New Year greeting postcards - Nengajo.
+
+これは年賀状の宛名面の生成のためのLuaLaTeXのスタイルファイルです.
 
 # How to use
 
